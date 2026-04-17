@@ -1,0 +1,13 @@
+# Local settings (never commit personal config)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
