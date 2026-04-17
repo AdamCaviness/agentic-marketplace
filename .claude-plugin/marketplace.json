@@ -1,0 +1,22 @@
+{
+  "name": "agentic-marketplace",
+  "owner": {
+    "name": "Adam Caviness"
+  },
+  "metadata": {
+    "description": "A plugin marketplace for agentic coding tools from Adam Caviness",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agentic-toolkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adamcaviness/agentic-toolkit.git"
+      },
+      "description": "Skills for ticket triage, auditing, code review, and branch shipping",
+      "version": "0.1.0",
+      "strict": true
+    }
+  ]
+}
