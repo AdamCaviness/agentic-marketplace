@@ -11,12 +11,10 @@
     {
       "name": "agentic-toolkit",
       "source": {
-        "source": "url",
-        "url": "https://github.com/adamcaviness/agentic-toolkit.git"
+        "source": "github",
+        "repo": "adamcaviness/agentic-toolkit"
       },
-      "description": "Skills for ticket triage, auditing, code review, and branch shipping",
-      "version": "0.1.0",
-      "strict": true
+      "description": "Skills for ticket triage, auditing, code review, and branch shipping"
     }
   ]
 }
