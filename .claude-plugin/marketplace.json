@@ -14,7 +14,7 @@
         "source": "github",
         "repo": "adamcaviness/agentic-toolkit"
       },
-      "description": "Skills for ticket triage, auditing, code review, and branch shipping"
+      "description": "Skills for ticket triage (bugs, architecture, product), code review, and branch shipping"
     }
   ]
 }
