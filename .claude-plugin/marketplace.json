@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "A plugin marketplace for agentic coding tools from Adam Caviness",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -15,6 +15,14 @@
         "repo": "adamcaviness/agentic-toolkit"
       },
       "description": "Skills for ticket triage (bugs, architecture, product), code review, and branch shipping"
+    },
+    {
+      "name": "agentic-atlas",
+      "source": {
+        "source": "github",
+        "repo": "adamcaviness/agentic-atlas"
+      },
+      "description": "Profile agentic development approaches on 13 signed, diverging axes; deterministic engine, no API key. Hosts the /agentic-atlas:run skill."
     }
   ]
 }
