@@ -9,7 +9,7 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Register it in
 ## Plugins
 
 - **[agentic-toolkit](https://github.com/adamcaviness/agentic-toolkit)**, skills for ticket triage, auditing, code review, and branch shipping.
-- **[agentic-atlas](https://github.com/adamcaviness/agentic-atlas)**, profile an agentic workflow on 13 signed, diverging axes to see how it fits your projects; hosts the `/agentic-atlas:run` skill.
+- **[agentic-atlas](https://github.com/adamcaviness/agentic-atlas)**, profile an agentic workflow on 13 signed, diverging axes to see how it fits your projects.
 
 ## Install a plugin
 
