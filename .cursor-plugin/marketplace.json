@@ -1,0 +1,30 @@
+{
+  "name": "agentic-marketplace",
+  "owner": {
+    "name": "Adam Caviness"
+  },
+  "metadata": {
+    "description": "A plugin marketplace for agentic coding tools from Adam Caviness",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "agentic-toolkit",
+      "source": {
+        "type": "github",
+        "owner": "adamcaviness",
+        "repo": "agentic-toolkit"
+      },
+      "description": "Skills for ticket triage (bugs, architecture, product), code review, and branch shipping"
+    },
+    {
+      "name": "agentic-atlas",
+      "source": {
+        "type": "github",
+        "owner": "adamcaviness",
+        "repo": "agentic-atlas"
+      },
+      "description": "Profile agentic development approaches on 13 signed, diverging axes; deterministic engine, no API key."
+    }
+  ]
+}
