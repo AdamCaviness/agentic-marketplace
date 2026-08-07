@@ -22,6 +22,8 @@ git clone https://github.com/adamcaviness/agentic-atlas.git ~/.cursor/plugins/lo
 
 That is user-level (every project). Skills appear under `/` in Agents. Confirm in **Customize → Skills**.
 
+Use only `~/.cursor/plugins/local` for Cursor. Do not also link the same skills into `~/.agents/skills/` or `~/.cursor/skills/`, or every skill appears twice.
+
 Update:
 
 ```bash
