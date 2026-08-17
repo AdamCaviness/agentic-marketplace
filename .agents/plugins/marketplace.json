@@ -1,0 +1,38 @@
+{
+  "name": "agentic-marketplace",
+  "interface": {
+    "displayName": "Agentic Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "agentic-toolkit",
+      "displayName": "Agentic Toolkit",
+      "description": "Skills for ticket triage (bugs, architecture, product), code review, and branch shipping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adamcaviness/agentic-toolkit.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "agentic-atlas",
+      "displayName": "Agentic Atlas",
+      "description": "Profile an agentic workflow on 13 signed, diverging axes; deterministic engine, no API key.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adamcaviness/agentic-atlas.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
