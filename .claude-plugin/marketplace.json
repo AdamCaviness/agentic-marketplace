@@ -19,16 +19,16 @@
     {
       "name": "agentic-atlas",
       "source": {
-        "source": "github",
-        "repo": "adamcaviness/agentic-atlas"
+        "source": "url",
+        "url": "https://github.com/adamcaviness/agentic-atlas.git"
       },
       "description": "Profile agentic development approaches on 13 signed, diverging axes; deterministic engine, no API key."
     },
     {
       "name": "prompt-marks",
       "source": {
-        "source": "github",
-        "repo": "adamcaviness/prompt-marks"
+        "source": "url",
+        "url": "https://github.com/adamcaviness/prompt-marks.git"
       },
       "description": "Claude Code mod: marks your prompts in the transcript and jumps between them with Option or Ctrl plus Up and Down."
     }
