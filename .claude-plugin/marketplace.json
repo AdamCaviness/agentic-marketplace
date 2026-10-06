@@ -23,6 +23,14 @@
         "repo": "adamcaviness/agentic-atlas"
       },
       "description": "Profile agentic development approaches on 13 signed, diverging axes; deterministic engine, no API key."
+    },
+    {
+      "name": "prompt-marks",
+      "source": {
+        "source": "github",
+        "repo": "adamcaviness/prompt-marks"
+      },
+      "description": "Claude Code mod: marks your prompts in the transcript and jumps between them with Option or Ctrl plus Up and Down."
     }
   ]
 }

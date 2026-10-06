@@ -6,6 +6,7 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Claude Code re
 
 - **[agentic-toolkit](https://github.com/adamcaviness/agentic-toolkit)**, skills for ticket triage, auditing, code review, and branch shipping.
 - **[agentic-atlas](https://github.com/adamcaviness/agentic-atlas)**, profile an agentic workflow on 13 signed, diverging axes to see how it fits your projects.
+- **[prompt-marks](https://github.com/adamcaviness/prompt-marks)**, a Claude Code mod that marks your prompts in the transcript and jumps between them. Installed with agentic-toolkit; Claude Code only.
 
 ## Claude Code
 
@@ -14,6 +15,8 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Claude Code re
 /plugin install agentic-toolkit@agentic-marketplace
 /plugin install agentic-atlas@agentic-marketplace
 ```
+
+Installing agentic-toolkit also installs its dependency, prompt-marks. To install prompt-marks alone: `/plugin install prompt-marks@agentic-marketplace`.
 
 ## Cursor
 
