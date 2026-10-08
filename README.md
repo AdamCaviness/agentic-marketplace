@@ -16,6 +16,8 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Claude Code re
 /plugin install agentic-atlas@agentic-marketplace
 ```
 
+Then turn on auto-update: `/plugin` → **Marketplaces** → **agentic-marketplace** → **Enable auto-update**. Claude Code leaves it off for marketplaces outside Anthropic's, so without it you keep the version you first installed.
+
 Installing agentic-toolkit also installs its dependency, prompt-marks. To install prompt-marks alone: `/plugin install prompt-marks@agentic-marketplace`.
 
 ## Cursor
