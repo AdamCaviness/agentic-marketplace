@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "A plugin marketplace for agentic coding tools from Adam Caviness",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -31,6 +31,15 @@
         "url": "https://github.com/adamcaviness/prompt-marks.git"
       },
       "description": "Claude Code mod: marks your prompts in the transcript and jumps between them with Option or Ctrl plus Up and Down."
+    },
+    {
+      "name": "cache-handoff",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/adamcaviness/cache-magic.git",
+        "path": "cache-handoff"
+      },
+      "description": "Claude Code mod: writes a handoff while a large idle session's prompt cache is still warm, then offers to load it once the cache has gone cold. Off until you enable it."
     }
   ]
 }
