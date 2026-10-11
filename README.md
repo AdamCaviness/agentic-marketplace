@@ -1,6 +1,6 @@
 # Agentic Marketplace
 
-Adam's plugin marketplace for agentic coding tools. Intended to support Claude Code, ChatGPT (Codex), Devin, Cursor, and Antigravity.
+Adam's plugin marketplace for agentic coding tools. Intended to support as many harnesses as possible but some just don't support marketplaces yet.
 
 ## Plugins
 
