@@ -1,0 +1,15 @@
+{
+  "name": "agentic-marketplace",
+  "version": "1.0.0",
+  "description": "A plugin marketplace for agentic coding tools from Adam Caviness",
+  "author": {
+    "name": "Adam Caviness"
+  },
+  "homepage": "https://github.com/adamcaviness/agentic-marketplace",
+  "repository": "https://github.com/adamcaviness/agentic-marketplace",
+  "license": "MIT",
+  "optionalPlugins": [
+    "adamcaviness/agentic-toolkit",
+    "adamcaviness/agentic-atlas"
+  ]
+}
