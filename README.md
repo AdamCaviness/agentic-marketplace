@@ -7,7 +7,7 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Claude Code re
 - **[agentic-toolkit](https://github.com/adamcaviness/agentic-toolkit)**, skills for ticket triage, auditing, code review, and branch shipping.
 - **[agentic-atlas](https://github.com/adamcaviness/agentic-atlas)**, profile an agentic workflow on 13 signed, diverging axes to see how it fits your projects.
 - **[prompt-marks](https://github.com/adamcaviness/prompt-marks)**, a Claude Code mod that marks your prompts in the transcript and jumps between them. Installed with agentic-toolkit; Claude Code only.
-- **[cache-handoff](https://github.com/adamcaviness/cache-magic)**, a Claude Code mod that writes a handoff while a large idle session's prompt cache is still warm, then offers to load it once the cache has gone cold. Installed with agentic-toolkit; Claude Code only. Off by default: run `/plugin configure cache-handoff@agentic-marketplace`, then set **Cache Handoff: Enabled**.
+- **[cache-magic](https://github.com/adamcaviness/cache-magic)**, a Claude Code mod that writes a handoff while a large idle session's prompt cache is still warm, then sends a prompt that arrives after it expired with the handoff instead of the full context. Installed with agentic-toolkit; Claude Code only. Settings are the "Cache Magic" rows in `/config`.
 
 ## Claude Code
 
@@ -19,7 +19,9 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Claude Code re
 
 Then turn on auto-update: `/plugin` → **Marketplaces** → **agentic-marketplace** → **Enable auto-update**. Claude Code leaves it off for marketplaces outside Anthropic's, so without it you keep the version you first installed.
 
-Installing agentic-toolkit also installs its dependencies, prompt-marks and cache-handoff. To install either alone: `/plugin install prompt-marks@agentic-marketplace` or `/plugin install cache-handoff@agentic-marketplace`.
+Installing agentic-toolkit also installs its dependencies, prompt-marks and cache-magic. To install either alone: `/plugin install prompt-marks@agentic-marketplace` or `/plugin install cache-magic@agentic-marketplace`.
+
+cache-handoff was renamed cache-magic. If you have cache-handoff installed, run `/plugin uninstall cache-handoff@agentic-marketplace`.
 
 ## Cursor
 

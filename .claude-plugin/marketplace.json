@@ -39,15 +39,6 @@
         "url": "https://github.com/adamcaviness/cache-magic.git"
       },
       "description": "Claude Code mod: writes a handoff while a large idle session's prompt cache is still warm, then sends a prompt that arrives after it expired with the handoff instead of the full context."
-    },
-    {
-      "name": "cache-handoff",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/adamcaviness/cache-magic.git",
-        "ref": "v0.1.1"
-      },
-      "description": "Renamed to cache-magic; install that instead. Frozen at 0.1.1 so agentic-toolkit 1.8.0 still installs."
     }
   ]
 }
