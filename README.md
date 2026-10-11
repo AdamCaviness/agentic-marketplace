@@ -7,7 +7,7 @@ A plugin marketplace for agentic coding tools from Adam Caviness. Claude Code re
 - **[agentic-toolkit](https://github.com/adamcaviness/agentic-toolkit)**, skills for ticket triage, auditing, code review, and branch shipping.
 - **[agentic-atlas](https://github.com/adamcaviness/agentic-atlas)**, profile an agentic workflow on 13 signed, diverging axes to see how it fits your projects.
 - **[prompt-marks](https://github.com/adamcaviness/prompt-marks)**, a Claude Code mod that marks your prompts in the transcript and jumps between them. Installed with agentic-toolkit; Claude Code only.
-- **[cache-handoff](https://github.com/adamcaviness/cache-magic/tree/main/cache-handoff)**, a Claude Code mod that writes a handoff while a large idle session's prompt cache is still warm, then offers to load it once the cache has gone cold. Installed with agentic-toolkit; Claude Code only. Off by default: run `/plugin configure cache-handoff@agentic-marketplace`, then set **Cache Handoff: Enabled**.
+- **[cache-handoff](https://github.com/adamcaviness/cache-magic)**, a Claude Code mod that writes a handoff while a large idle session's prompt cache is still warm, then offers to load it once the cache has gone cold. Installed with agentic-toolkit; Claude Code only. Off by default: run `/plugin configure cache-handoff@agentic-marketplace`, then set **Cache Handoff: Enabled**.
 
 ## Claude Code
 

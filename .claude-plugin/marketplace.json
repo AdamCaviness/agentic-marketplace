@@ -35,9 +35,8 @@
     {
       "name": "cache-handoff",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/adamcaviness/cache-magic.git",
-        "path": "cache-handoff"
+        "source": "url",
+        "url": "https://github.com/adamcaviness/cache-magic.git"
       },
       "description": "Claude Code mod: writes a handoff while a large idle session's prompt cache is still warm, then offers to load it once the cache has gone cold. Off until you enable it."
     }
